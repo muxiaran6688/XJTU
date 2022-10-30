@@ -8,6 +8,8 @@ Dataset：COVID-19 dataset. After the dataset was processed, only macrophages we
 
 Model:VAE
 
+< img src="img/CoupleVAE.png">
+
 Target:We hope the model can accurately predict the gene expression of cells after Covid-19 infection.
 
 To run the notebooks and scripts you need following packages :
