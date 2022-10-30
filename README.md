@@ -8,7 +8,7 @@ Dataset：COVID-19 dataset. After the dataset was processed, only macrophages we
 
 Model:VAE
 
-< img src="img/CoupleVAE.png">
+![image](https://github.com/muxiaran6688/XJTU/blob/main/img/CoupleVAE.PNG)
 
 Target:We hope the model can accurately predict the gene expression of cells after Covid-19 infection.
 
