@@ -1,5 +1,12 @@
-# XJTU
-# VAE for pertubational single cell data
+# CoupleVAE
+
+This is the official Implementation for our paper:
+
+CoupleVAE: a coupling variational autoencoders model for predicting perturbational single-cell RNA sequencing data
+
+Yahao Wu, Songyan Liu, Limin Li
+
+![image](https://github.com/muxiaran6688/XJTU/blob/main/img/CoupleVAE.PNG)
 
 This model is used to predict the gene expression of cells after a certain perturbation.
 
@@ -8,7 +15,7 @@ Dataset：COVID-19 dataset. After the dataset was processed, only macrophages we
 
 Model:VAE
 
-![image](https://github.com/muxiaran6688/XJTU/blob/main/img/CoupleVAE.PNG)
+
 
 Target:We hope the model can accurately predict the gene expression of cells after Covid-19 infection.
 
@@ -21,7 +28,7 @@ tensorflow, scanpy, numpy, matplotlib, scipy, wget.
 
 ```bash
 cd code/
-python train_VAE.py
+python train_CoupleVAE.py
 
 ```
 
